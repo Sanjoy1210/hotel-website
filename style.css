@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* ========= Hero Section Start ========= */
+.hero-section-area {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(images/hotel\ cover.jpg);
+    background-repeat: no-repeat;
+    background-position: cover;
+}
+.navbar {
+    display: flex;
+    width: 100%;
+}
+.half-width {
+    width: 50%;
+}
+.logo {
+    margin: 3% 17%;
+}
+.logo a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    font-size: 30px;
+    color: lightslategray;
+}
+.manubar {
+    width: 100%;
+}
+.manubar ul {
+    display: flex;
+    justify-content: center;
+}
+
+.manubar li {
+    list-style: none;
+    position: relative;
+    margin: 4% 2%;
+}
+.manubar li a {
+    text-decoration: none;
+    color: #EDE291;
+    font-size: 17px;
+    padding: 15px 16px;
+    text-align: center;
+}
+
+.manubar li:hover {
+    border: 1px solid #EDE291;
+    border-radius: 100px;
+}
+
+.hero-section {
+    width: 50%;
+    margin-top: 5%;
+    margin-left: 8%;
+}
+.hero-section-wrapper {
+    width: 100%;
+}
+.hero-section-content {
+    color: #fff;
+}
+.bold-text {
+    font-weight: 900;
+}
+
+.hero-section-content h1 {
+    font-size: 70px;
+    font-weight: 400;
+    word-spacing: 8px;
+    letter-spacing: 3px;
+}
+.hero-section-content p {
+    font-size: 18px;
+    line-height: 26px;
+    margin-top: 37px;
+    margin-bottom: 32px;
+}
+.hero-section-content a {
+    display: inline-block;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    height: 44px;
+    width: 125px;
+    border: 1px solid #EDE291;
+    border-radius: 100px;
+    padding: 11px;
+    text-align: center;
+}
+/* ======= Hero Section Start ======= */
